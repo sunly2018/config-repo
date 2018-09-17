@@ -1,0 +1,13 @@
+schedule:
+  burndownchart:
+    cron: 0 1 0 * * ?
+  sprintProgressChart:
+    cron: 0 3 0 * * ?
+  backlogsync: 
+    cron: 0 */10 * * * ?
+  backlogTimeout:
+    cron: 0 0 8 * * ?
+  taskTimeout:
+    cron: 0 0 8 * * ?
+  dashboard: 
+    cron: 0 0 1 * * ? 

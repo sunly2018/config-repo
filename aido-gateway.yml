@@ -1,0 +1,7 @@
+multipart:
+  temp: 
+    location: /fdata/aido/tmp
+spring:
+  redis:
+    host: 10.1.234.29
+    port: 16379

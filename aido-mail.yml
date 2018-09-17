@@ -1,0 +1,17 @@
+spring: 
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver  
+    url: jdbc:mysql://127.0.0.1:3306/mail-send?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 31422
+mail:
+  server:
+    host: mail.asiainfo.com
+    port: 25
+    protocol: smtp
+    username: aisw_qmc@asiainfo.com
+    password: Ice-cream
+    from: aisw_qmc@asiainfo.com
+failure:
+  times: 
+    limit: 5
